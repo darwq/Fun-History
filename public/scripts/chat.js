@@ -70,6 +70,7 @@ input.addEventListener("keypress",(e) => {
   }).then(response => {
     return response.json()
   }).then(response => {
+    console.log(response);
     getData(url,element.value,response.key).then((result) => {
       console.log(result);
       let message = result.choices[0].message.content;
