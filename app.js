@@ -12,6 +12,10 @@ app.use(express.static(path.join(__dirname,"public")));
 
 app.set("view engine","ejs");
 
+app.get("/",(req,res) => {
+    res.redirect("/home");
+})
+
 app.get("/home",(req,res) => {
     res.render("home.ejs",{title : "Fun History"});
     res.status(200);
@@ -30,8 +34,11 @@ app.get("/bac",(req,res) => {
             bareme.push(text);
         }
     });
-    console.log(files);
     res.render("bac.ejs",{subiecte : subiecte,bareme : bareme}); 
+})
+
+app.get("/istorie-generala",(req,res) => {
+    res.render("general.ejs");
 })
 
 app.use((req,res,next) => {

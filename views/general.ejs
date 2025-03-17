@@ -1,0 +1,20 @@
+<%- include("./templates/body.ejs",{title : "Istorie Generala"}) -%>
+<script type="module" src="/scripts/chat.js"></script>
+<div class="container ai-container fade-anim">
+    <h1 class="title ai-title">GPT - INTEGRAT IN PLATFORMA NOASTRA</h1>
+    <h3 class="sub-title">Invata istorie utilizand cea mai noua versiune a inteligentei artificiale!</h3>
+    <img class="ai-container-image" src="/images/gpt.jpg" alt="GPT IMAGE">
+    <a href="#chat" class="scroll-container">
+        <div class="scroll-dot"></div>
+    </a>
+</div>
+<div class="container" id="chat">
+    <div class="chat-system center">
+        <div class="content">
+        </div>
+        <div class="input-system">
+            <input type="text" class="chat-input" placeholder="Intreaba Orice">
+        </div>
+    </div>
+</div>
+<%- include("./templates/footer.ejs") -%>
