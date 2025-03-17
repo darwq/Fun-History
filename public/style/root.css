@@ -83,7 +83,7 @@ a{
 .nav .header{
     position: relative;
     transform: translateY(5px);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: white;
 }
 
@@ -167,7 +167,7 @@ a{
 }
 
 .container .box{
-    width: 75%;
+    min-width: 75%;
     background: rgba(38, 36, 36, 0.5);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -384,7 +384,7 @@ a{
     }
 }
 
-@media screen and (max-width: 1100px){
+@media screen and (min-width: 500px) and (max-width: 1100px){
     .nav .pages{
         display: none;
     }
@@ -403,5 +403,20 @@ a{
     .bac-container .items{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .nav .title{
+        font-size: 2rem;
+    }
+
+    .nav .hamburger-menu{
+        width: 35px;
+        height: 35px;
+    }
+
+    .nav .header{
+        font-size: 2.3rem;
     }
 }
