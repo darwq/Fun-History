@@ -1,0 +1,20 @@
+<%- include("./templates/body.ejs",{title : "Istorie Bac"}) -%>
+<div class="container bac-container">
+    <div class="items">
+        <div class="file-system subjects">
+            <h1 class="header">Subiecte</h1>
+            <hr style="border: 1px solid #000; margin: 10px 0 10px 0;">
+            <% subiecte.forEach(file => { %>
+                <a class="file-entity" target="_blank" href="<%= file %>"><%= file.split("/")[3] %></a>
+            <% }) %>
+        </div>
+        <div class="file-system results">
+            <h1 class="header">Bareme</h1>
+            <hr style="border: 1px solid #000; margin: 10px 0 10px 0;">
+            <% bareme.forEach(file => { %>
+                <a class="file-entity" target="_blank" href="<%= file %>"><%= file.split("/")[3] %></a>
+            <% }) %>
+        </div>
+    </div>
+</div>
+<%- include("./templates/footer.ejs") -%>

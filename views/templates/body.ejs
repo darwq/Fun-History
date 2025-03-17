@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="icon" href="/images/site-ico.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style/root.css">
+
+    <!-- SCRIPTS -->
+
+    <script src="/scripts/loading.js" defer></script>
+    <script src="/scripts/dropdown.js" defer></script>
+    <script src="/scripts/navbar.js" defer></script>
+</head>
+<body>
+<div class="loading-screen">
+    <span class="loader"></span>
+</div>
+<nav class="nav" id="nav">
+    <a tabindex="1" class="skip-text" href="#content">SKIP CONTENT</a>
+    <h1 class="title">Fun History</h1>
+    <div class="pages">
+        <a class="header" href="/home"><h3>Home</h3></a>
+        <a class="header" href="/bac"><h3>Istorie Bac</h3></a>
+        <a class="header" href="/istorie-genearala"><h3>Istorie Generala</h3></a>
+        <a class="header" href="/about"><h3>Despre Proiect</h3></a>
+    </div>
+    <img tabindex="1" class="hamburger-menu" src="/images/hamburger.png" alt="hamburger-menu">
+</nav>
+<nav class="nav drop-down">
+    <a class="header" href="/home"><h3>Home</h3></a>
+    <a class="header" href="/bac"><h3>Istorie Bac</h3></a>
+    <a class="header" href="/istorie-genearala"><h3>Istorie Generala</h3></a>
+    <a class="header" href="/about"><h3>Despre Proiect</h3></a>
+    <div class="top-btn"></div>
+</nav>
+<main class="main" id="content">

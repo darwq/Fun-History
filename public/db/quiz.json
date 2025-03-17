@@ -1,0 +1,293 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Cum se numea substanța chimică care a fost aruncată pe Vietnam în timpul războiului din Vietnam?",
+      "correct_answer": "Agent Orange",
+      "incorrect_answers": [
+        "Phosgene",
+        "Mustard Gas",
+        "Hydrogen Cyanide"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "În 1961, un avion american B-52 s-a prăbușit și aproape a detonat două bombe nucleare de 4 mt peste ce oraș american?",
+      "correct_answer": "Goldsboro, North Carolina",
+      "incorrect_answers": [
+        "Hicksville, New York",
+        "Jacksonville, Florida",
+        "Conway, Arkansas"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Cine a fost primul președinte al Republicii Populare Chineze?",
+      "correct_answer": "Mao Zedong",
+      "incorrect_answers": [
+        "Liu Shaoqi",
+        "Dong Biwu",
+        "Li Xiannian"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Corpul aerian al armatei Statelor Unite a devenit Forțele Aeriene ale Statelor Unite în ce dată?",
+      "correct_answer": "18 Septembrie, 1947",
+      "incorrect_answers": [
+        "December 14, 1946",
+        "October 27, 1945",
+        "November 08, 1944"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Când a fost înființată Agenția de Securitate Națională a Statelor Unite?",
+      "correct_answer": "4 November, 1952",
+      "incorrect_answers": [
+        "July 26, 1908",
+        " July 1, 1973",
+        " November 25, 2002"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Când s-a terminat construcția Canalului Suez?",
+      "correct_answer": "1869",
+      "incorrect_answers": [
+        "1859",
+        "1860",
+        "1850"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Care dintre aceste tancuri din anii 1900 au fost proiectate și construite ÎNAINTE de celelalte?",
+      "correct_answer": "Renault FT",
+      "incorrect_answers": [
+        "M4 Sherman",
+        " Panzer IV",
+        "Cromwell "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Care a fost numele de cod pentru invazia germană a Uniunii Sovietice în cel de-al doilea război mondial?",
+      "correct_answer": "Operațiunea Barbarossa",
+      "incorrect_answers": [
+        "Operation Kaiserschlact",
+        "Operation Unthinkable",
+        "Operation Molotov"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Când s-a încheiat Marele Război Patriotic din URSS?",
+      "correct_answer": "9 Mai, 1945",
+      "incorrect_answers": [
+        "September 2nd, 1945",
+        "August 9th, 1945",
+        "December 11th, 1945"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Care rege a fost ucis în bătălia de la Bosworth Field în 1485?",
+      "correct_answer": "Richard III",
+      "incorrect_answers": [
+        "Edward V",
+        "Henry VII",
+        "James I"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "În ce an a lansat Skoal, o companie de tutun fără fum, prima linie de pungi, cunoscută sub numele de „Skoal Bandits”?",
+      "correct_answer": "1983",
+      "incorrect_answers": [
+        "1934",
+        "1984",
+        "1822"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "În ce an a avut loc bătălia de la Agincourt?",
+      "correct_answer": "1415",
+      "incorrect_answers": [
+        "1463",
+        "1401",
+        "1422"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Când a devenit Norvegia liberă de Suedia?",
+      "correct_answer": "1905",
+      "incorrect_answers": [
+        "1925",
+        "1814",
+        "1834"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "La ce dată a fost primul zbor al P-40 Warhawk?",
+      "correct_answer": "14 Octombrie 1938",
+      "incorrect_answers": [
+        "August 21 1939",
+        "January 12 1940",
+        "June 1 1939"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Care președinte american a luat parte la Conferința de la Potsdam, unde Aliații au ajuns la un acord de pace cu Germania?",
+      "correct_answer": "Harry S. Truman",
+      "incorrect_answers": [
+        "Dwight D. Eisenhower",
+        "Franklin D. Roosevelt",
+        "Herbert Hoover"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Care președinte al SUA era în funcție când a început războiul din Golf?",
+      "correct_answer": "George H. W. Bush",
+      "incorrect_answers": [
+        "Richard Nixon",
+        "George W. Bush ",
+        "Ronald Regan"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Când s-a încheiat Bătălia de la Bulge?",
+      "correct_answer": "J25 Ianuarie, 1945",
+      "incorrect_answers": [
+        "August 6, 1945",
+        "December 7, 1941",
+        "December 16, 1944"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Cum se numește nava care se afla la doar câteva mile distanță de RMS Titanic când a lovit un aisberg pe 14 aprilie 1912?",
+      "correct_answer": "Californian",
+      "incorrect_answers": [
+        "Carpathia",
+        "Cristol",
+        "Commerce"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Care este cel mai vechi stat din SUA?",
+      "correct_answer": "Delaware",
+      "incorrect_answers": [
+        "Rhode Island",
+        "Maine",
+        "Virginia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Care dintre aceste țări a fost cartografiată maritim în 1500 de explorările maritime portugheze?",
+      "correct_answer": "Brazilia",
+      "incorrect_answers": [
+        "India",
+        "Mozambique",
+        "Madagascar"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Unde și când a fost făcută prima cutie de carton pentru uz industrial?",
+      "correct_answer": "Anglia, 1817",
+      "incorrect_answers": [
+        "United States, 1817",
+        "England, 1917",
+        "United States, 1917"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "În ce an a început Primul Război Mondial?",
+      "correct_answer": "1914",
+      "incorrect_answers": [
+        "1930",
+        "1917",
+        "1939"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Cine l-a încoronat pe Carol cel Mare ca Sfânt Împărat Roman în ziua de Crăciun al anului 800?",
+      "correct_answer": "Papa Leo III",
+      "incorrect_answers": [
+        "Pope Urban IV",
+        "Pope Stephen V",
+        "Pope Valentine"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "În 1845, o serie de războaie numite după care au început indigenii în Noua Zeelandă?",
+      "correct_answer": "Māori",
+      "incorrect_answers": [
+        "Papuans",
+        "Aborigines",
+        "Polynesians"
+      ]
+    }
+  ]
+}
