@@ -1,1 +1,0 @@
-export let API_KEY="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"

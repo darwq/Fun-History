@@ -41,6 +41,11 @@ app.get("/istorie-generala",(req,res) => {
     res.render("general.ejs");
 })
 
+app.post("/get_key",(res,req) => {
+    let data = {key : process.env.OPENAI_KEY}
+    req.json(data);
+})
+
 app.use((req,res,next) => {
     res.status(404).render("404.ejs");})
 

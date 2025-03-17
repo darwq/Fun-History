@@ -1,5 +1,3 @@
-import {API_KEY} from "./data.js"
-
 let url = `https://api.openai.com/v1/chat/completions`
 
 let input = document.querySelector(".chat-input");
@@ -33,7 +31,7 @@ const createOutput = (text) => {
   content.appendChild(item);
 }
 
-const getData = async (url,message) => {
+const getData = async (url,message,key) => {
 
   return new Promise(async (res,rej) => {
     try {
@@ -41,7 +39,7 @@ const getData = async (url,message) => {
           method : "POST",
           headers : {
             "Content-Type" : "application/json",
-            Authorization : `Bearer ${API_KEY}`
+            Authorization : `Bearer ${key}`
           },
           body: JSON.stringify({
             model :"gpt-4o",
@@ -67,13 +65,18 @@ input.addEventListener("keypress",(e) => {
 
   createInput(element.value);
 
-  getData(url,element.value).then((result) => {
-    console.log(result);
-    let message = result.choices[0].message.content;
-    createOutput(message);
+  fetch("/get_key",{
+    method: "POST"
+  }).then(response => {
+    return response.json()
+  }).then(response => {
+    getData(url,element.value,response.key).then((result) => {
+      console.log(result);
+      let message = result.choices[0].message.content;
+      createOutput(message);
+    })
+    element.value = "";
   })
-
-  element.value = "";
 })
 
 // getData(url);
