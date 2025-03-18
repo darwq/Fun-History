@@ -29,6 +29,8 @@ const createOutput = (text) => {
   // APPENDING
   item.appendChild(inputText);
   content.appendChild(item);
+
+  return item;
 }
 
 const getData = async (url,message,key) => {
@@ -65,12 +67,15 @@ input.addEventListener("keypress",(e) => {
 
   createInput(element.value);
 
+  // let msg = createOutput("...");
+
   fetch("/get_key",{
     method: "POST"
   }).then(response => {
     return response.json()
   }).then(response => {
     getData(url,element.value,response.key).then((result) => {
+      // content.removeChild(msg);
       let message = result.choices[0].message.content;
       createOutput(message);
     })

@@ -16,6 +16,13 @@
                 <a class="file-entity" target="_blank" href="<%= file %>"><%= file.split("/")[3] %></a>
             <% }) %>
         </div>
+        <div class="file-system esee">
+            <h1 class="header">Esee</h1>
+            <hr style="border: 1px solid #000; margin: 10px 0 10px 0;">
+            <% esee.forEach(file => { %>
+                <a class="file-entity" target="_blank" href="<%= file %>"><%= file %></a>
+            <% }) %>
+        </div>
     </div>
 </div>
 <%- include("./templates/footer.ejs") -%>
