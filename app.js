@@ -23,7 +23,6 @@ app.get("/home",(req,res) => {
 
 app.get("/bac",(req,res) => {
     files = fs.readdirSync("./public/db/Subiecte-si-bareme");
-    esee = fs.readdirSync("./public/db/esee");
     subiecte = [];
     bareme = [];
     files.forEach((element,i) => {
@@ -35,7 +34,7 @@ app.get("/bac",(req,res) => {
             bareme.push(text);
         }
     });
-    res.render("bac.ejs",{subiecte,bareme,esee}); 
+    res.render("bac.ejs",{subiecte,bareme}); 
 })
 
 app.get("/istorie-AI",(req,res) => {

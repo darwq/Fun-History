@@ -3,25 +3,40 @@
 <div class="container bac-container">
     <div class="items">
         <div class="file-system subjects">
-            <h1 class="header">Subiecte</h1>
+            <h1 class="header">Istorie bac - Subiecte</h1>
             <hr style="border: 1px solid #000; margin: 10px 0 10px 0;">
             <% subiecte.forEach(file => { %>
                 <a class="file-entity" target="_blank" href="<%= file %>"><%= file.split("/")[3] %></a>
             <% }) %>
         </div>
         <div class="file-system results">
-            <h1 class="header">Bareme</h1>
+            <h1 class="header">Istorie bac - Bareme</h1>
             <hr style="border: 1px solid #000; margin: 10px 0 10px 0;">
             <% bareme.forEach(file => { %>
                 <a class="file-entity" target="_blank" href="<%= file %>"><%= file.split("/")[3] %></a>
             <% }) %>
         </div>
-        <div class="file-system esee">
-            <h1 class="header">Esee</h1>
+        <div class="file-system eseuri">
+            <h1 class="header">Istorie Bac - subiectele 1 si 2</h1>
             <hr style="border: 1px solid #000; margin: 10px 0 10px 0;">
-            <% esee.forEach(file => { %>
-                <a class="file-entity" target="_blank" href="/db/esee/<%= file %>"><%= file %></a>
-            <% }) %>
+            <a class="file-entity" target="_blank" href="/db/eseuri/continuare exerciții autonomii.docx">continuare exerciții autonomii.docx</a>
+            <a class="file-entity" target="_blank" href="/db/eseuri/cronologie-final CHIRIAC.doc">cronologie-final CHIRIAC.doc</a>
+            <a class="file-entity" target="_blank" href="/db/eseuri/FIȘĂ-CRONOLOGICĂ-BĂTĂLII-ȘI-TRATATE.docx">FIȘĂ-CRONOLOGICĂ-BĂTĂLII-ȘI-TRATATE.docx</a>
+            <a class="file-entity" target="_blank" href="/db/eseuri/public/db/eseuri/ISTORIE STATUL ROMÂN MODERN VARIANTA 2.docx">ISTORIE STATUL ROMÂN MODERN VARIANTA 2.docx</a>
+            <a class="file-entity" target="_blank" href="/db/eseuri/RECAPITULARE-AUTONOMII-LOCALE.docx">RECAPITULARE-AUTONOMII-LOCALE.docx</a>
+            <a class="file-entity" target="_blank" href="/db/eseuri/SCHEMĂ RECAPITULATIVĂ.docx">SCHEMĂ RECAPITULATIVĂ.docx</a>
+            <a class="file-entity" target="_blank" href="/db/eseuri/Totalitarism-si-democratie-in-Europa-si-Romania-secolului-XX.docx">Totalitarism-si-democratie-in-Europa-si-Romania-secolului-XX.docx</a>
+        </div>
+        <div class="file-system eseuri">
+            <h1 class="header">Istorie Bac - Eseuri</h1>
+            <hr style="border: 1px solid #000; margin: 10px 0 10px 0;">
+            <a class="file-entity" target="_blank" href="/db/eseuri/ESEU BĂTĂLII ȘI TRATATE.docx">ESEU BĂTĂLII ȘI TRATATE.docx</a>
+            <a class="file-entity" target="_blank" href="/db/eseuri/ESEU MODEL CONSTITUȚIILE ROMÂNIEI.docx">ESEU MODEL CONSTITUȚIILE ROMÂNIEI.docx</a>
+        </div>
+        <div class="file-system eseuri">
+            <h1 class="header">Istorie Bac - Glosar</h1>
+            <hr style="border: 1px solid #000; margin: 10px 0 10px 0;">
+            <a class="file-entity" target="_blank" href="/db/eseuri/glosar.doc">glosar.doc</a>
         </div>
     </div>
 </div>
