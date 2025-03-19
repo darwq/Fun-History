@@ -33,6 +33,15 @@ const createOutput = (text) => {
   return item;
 }
 
+const createLoading = () => {
+  let loading_blob = document.createElement("div");
+  loading_blob.classList.add("loading-blob");
+
+  content.appendChild(loading_blob);
+
+  return loading_blob;
+}
+
 const getData = async (url,message,key) => {
 
   return new Promise(async (res,rej) => {
@@ -67,7 +76,8 @@ input.addEventListener("keypress",(e) => {
 
   createInput(element.value);
 
-  // let msg = createOutput("...");
+  let loading = createLoading();
+  input.setAttribute("disabled","disabled");
 
   fetch("/get_key",{
     method: "POST"
@@ -76,6 +86,8 @@ input.addEventListener("keypress",(e) => {
   }).then(response => {
     getData(url,element.value,response.key).then((result) => {
       // content.removeChild(msg);
+      content.removeChild(loading);
+      input.removeAttribute("disabled");
       let message = result.choices[0].message.content;
       createOutput(message);
     })
